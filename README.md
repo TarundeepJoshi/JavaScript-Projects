@@ -1,3 +1,3 @@
 # JavaScript-Projects
 
-1.) Background Color Changer:- https://bg-colorchanger.netlify.app/
+1.) Background Color Changer:- <a href="https://bg-colorchanger.netlify.app/" target="_blank"></a>
