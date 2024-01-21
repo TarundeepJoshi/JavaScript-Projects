@@ -3,7 +3,8 @@
 <div align="center">
   <h3>
     <span> | </span>
-    https://bg-colorchanger.netlify.app/
+    <a href="https://bg-colorchanger.netlify.app/" target="_blank"></a>
+    Solution
     </a>
     <span> | </span>
   </h3>
