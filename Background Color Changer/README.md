@@ -4,7 +4,7 @@
   <h3>
     <span> | </span>
     <a href="https://bg-colorchanger.netlify.app/" target="_blank">
-    Solution
+    My Solution
     </a>
     <span> | </span>
   </h3>
