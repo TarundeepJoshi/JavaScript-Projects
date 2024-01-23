@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    border: none;
+    outline: none;
+}
+
+body {
+    background-color: #6e6e6e;
+}
+
+.container {
+    background-color: white;
+    width: 310px;
+    padding: 2.5em 1.1em;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    font-size: 27px;
+    text-align: center;
+    margin-top: -20px;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+#output-color {
+    position: relative;
+    height: 165px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.25);
+    border: 2px solid #ffffff;
+    /* margin: auto;
+    display: grid; */
+    margin-bottom: 15px;
+    place-items: center;
+}
+
+#output-color span {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.show-color {
+    animation: pop 0.8s;
+}
+
+/* @keyframes pop {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+} */
+
+input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+
+    box-shadow: 0 0 20px rgba(0, 139, 253, 0.65);
+    font-size: 1.3em;
+    padding: 0.3em 0;
+
+    margin: 1em 0;
+    border-radius: 5px;
+    color: #000000;
+    text-align: center;
+}
+
+input[type="text"]::-moz-selection {
+    background: transparent;
+}
+
+input[type="text"]::selection {
+    background: transparent;
+}
+
+.btns {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+
+.btns button {
+    font-size: 1.03em;
+    padding: 0.8em 1.7em;
+    border-radius: 7px;
+    width: 120px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#gen-btn {
+    background-color: #205e94;
+    color: #ffffff;
+    transition: all .2s ease-in;
+}
+#gen-btn:hover{
+    background-color: black;
+}
+
+#copy-btn {
+    background-color: #d23332;
+    color: #ffffff;
+    transition: all .2s ease-in;
+}
+#copy-btn:hover{
+    background-color: black;
+}
