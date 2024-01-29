@@ -20,7 +20,7 @@ const randomColor = () => {
 copyBtn.addEventListener("click", () => {
   output.select();
   document.execCommand("copy");
-  alert(`COLOR (${color}) COPIED`);
+  alert(`${color} copied`)
 });
 
 window.onload = randomColor;
